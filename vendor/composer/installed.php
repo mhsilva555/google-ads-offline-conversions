@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'app/google-offline',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '287bbf97723df99aeb5ccc62f323c8a4c0b57da7',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'app/google-offline' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '287bbf97723df99aeb5ccc62f323c8a4c0b57da7',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -166,6 +166,15 @@
             'reference' => '408d5eafb83c57f6365a3ca330ff23aa4a5fa39b',
             'type' => 'library',
             'install_path' => __DIR__ . '/../psr/simple-cache',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'shuchkin/simplexlsxgen' => array(
+            'pretty_version' => '1.3.10',
+            'version' => '1.3.10.0',
+            'reference' => '6d7608f8ca0a12fb379560b6a7e4109f5e033f40',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../shuchkin/simplexlsxgen',
             'aliases' => array(),
             'dev_requirement' => false,
         ),

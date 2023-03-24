@@ -13,6 +13,7 @@
         }
     ],
     "require": {
-        "fiskhandlarn/blade": "^0.6.2"
+        "fiskhandlarn/blade": "^0.6.2",
+        "shuchkin/simplexlsxgen": "^1.3"
     }
 }

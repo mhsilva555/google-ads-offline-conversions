@@ -113,8 +113,8 @@ class ComposerStaticInit3bf5d83d5197ab3c3316fcd1e28f6152
         ),
         'Illuminate\\Support\\' => 
         array (
-            0 => __DIR__ . '/..' . '/illuminate/macroable',
-            1 => __DIR__ . '/..' . '/illuminate/collections',
+            0 => __DIR__ . '/..' . '/illuminate/collections',
+            1 => __DIR__ . '/..' . '/illuminate/macroable',
             2 => __DIR__ . '/..' . '/illuminate/support',
         ),
         'Illuminate\\Pipeline\\' => 
@@ -167,6 +167,7 @@ class ComposerStaticInit3bf5d83d5197ab3c3316fcd1e28f6152
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'PhpToken' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/PhpToken.php',
+        'Shuchkin\\SimpleXLSXGen' => __DIR__ . '/..' . '/shuchkin/simplexlsxgen/src/SimpleXLSXGen.php',
         'Stringable' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
         'UnhandledMatchError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
         'ValueError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
