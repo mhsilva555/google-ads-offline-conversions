@@ -34,11 +34,11 @@ class Database
         $event = $attribute ? array_key_first($attribute) : null;
 
         if (!$attribute || !in_array($event, $attributes)) {
-            return;
+            return 404;
         }
 
         if (empty($_REQUEST[$event])) {
-            return false;
+            return 400;
         }
 
         global $wpdb;
