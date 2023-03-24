@@ -1,2 +1,2 @@
-# Google Offline Conversions - Wordpress Plugin
+# Google Ads Offline Conversions - Wordpress Plugin
 Version: 1.0.0
