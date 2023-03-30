@@ -20,6 +20,11 @@ class Database
         id mediumint(9) NOT NULL AUTO_INCREMENT,
         gclid varchar(255) NOT NULL,
         event varchar(100) NOT NULL,
+        time DATETIME DEFAULT NOW() NULL,
+        ip varchar(255) NULL,
+        code_area varchar(3) NULL,
+        city varchar(100) NULL,
+        state varchar(3) NULL,
         PRIMARY KEY  (id)
         );";
 
@@ -29,23 +34,5 @@ class Database
 
     public static function save()
     {
-        global $attributes;
-        $attribute = !empty($_REQUEST) ? $_REQUEST : null;
-        $event = $attribute ? array_key_first($attribute) : null;
-
-        if (!$attribute || !in_array($event, $attributes)) {
-            return 404;
-        }
-
-        if (empty($_REQUEST[$event])) {
-            return 400;
-        }
-
-        global $wpdb;
-        $table = $wpdb->prefix . DATABASE;
-        $gclid = sanitize_text_field($_REQUEST[$event]);
-
-        $save = $wpdb->prepare("INSERT INTO {$table} (gclid, event) VALUES (%s, %s)", $gclid, $event);
-        $wpdb->query($save);
     }
 }

@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+.dashboard-leads {
+}
+.table-leads td {
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+.export {
+    transition: all 0.2s;
+}
+.export:hover {
+    background: #eeeeee !important;
+}
