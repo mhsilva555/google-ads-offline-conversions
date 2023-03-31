@@ -16,8 +16,8 @@ if (!function_exists('add_action') || !defined('ABSPATH')) {
     wp_die();
 }
 
-require __DIR__ . '/vendor/autoload.php';
-require __DIR__ . '/config/app.php';
-require __DIR__ . '/config/attributes.php';
-require __DIR__ . '/config/defines.php';
-require __DIR__ . '/bootstrap/app.php';
+require_once __DIR__ . '/config/app.php';
+require_once __DIR__ . '/vendor/autoload.php';
+require_once __DIR__ . '/config/attributes.php';
+require_once __DIR__ . '/config/defines.php';
+require_once __DIR__ . '/bootstrap/app.php';
